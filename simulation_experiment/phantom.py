@@ -23,7 +23,7 @@ def dynamic_phantom(nx, ny, nz, kTRANS_low, kTRANS_high, kPL_low, kPL_high, line
 
     kPL = numpy.zeros(X.shape)
     large_radius = 0.35
-    small_radius = 0.071
+    small_radius = 0.10
     ball_center = 0.45
     if linear_kPL_gradient:
         scale = 0.5*(kPL_low - kPL_high)*Y + 0.5*(kPL_low + kPL_high)
